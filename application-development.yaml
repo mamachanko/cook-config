@@ -24,3 +24,9 @@ nested:
   name: Bar
   weight: 45.6
   certified: true
+another:
+  - foo:
+      test: a,b,c
+  - bar:
+      testing:
+        foo: [1,2,3]
